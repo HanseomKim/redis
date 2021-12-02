@@ -1,0 +1,11 @@
+spring:
+  redis:
+    host: localhost
+    port: 6379
+    key:
+      stringsKey: redis:strings
+      listsKey: redis:lists
+      setsKey: redis:sets
+      sortedSetsKey: redis:sorted:sets
+      hashesKey: redis:hashes
+
